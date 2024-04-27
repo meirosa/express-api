@@ -20,3 +20,20 @@ Selamat datang di API 3122500036_Mei Rosa Widyawati_Level 2!
 
 ```bash
 curl -X GET http://localhost:3000/
+
+## Endpoint 2: /api/data
+Deskripsi: Endpoint ini memberikan contoh data dari API.
+
+### Request:
+Method: GET
+Path: /api/data
+Response:
+Status Code: 200 OK
+body :
+{
+  "message": "Ini adalah contoh data dari API"
+}
+
+### Contoh Penggunaan:
+curl -X GET http://localhost:3000/api/data
+
